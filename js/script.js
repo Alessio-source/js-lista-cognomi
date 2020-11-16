@@ -8,7 +8,7 @@ for(i = 0; i < 1; i++) {
   if (!(cognome == "")) {
     cognomi.push(cognome);
   } else {
-    console.log("Non hai inserito nessun cognome");
+    alert("Non hai inserito nessun cognome");
     i--
   }
 }
